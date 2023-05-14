@@ -2,5 +2,5 @@ import { createClient } from "@supabase/supabase-js";
 
 export const supabaseAdmin = createClient(
   process.env.NEXT_PUBLIC_SUPABASE_URL || "",
-  process.env.SUPERBASE_SERVICE_ROLE_KEY || ""
+  process.env.NEXT_PUBLIC_SUPERBASE_ANON_KEY || ""
 );
