@@ -1,6 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
 
-import "../globals.css";
 import { createClient } from "@supabase/supabase-js";
 import { Picture } from "../../types";
 import CardImage from "../../components/CardImage";
